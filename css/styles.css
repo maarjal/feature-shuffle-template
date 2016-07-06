@@ -75,3 +75,14 @@ h1 {
     float: left;
   }
 }
+
+@media screen and (max-width: 670px) {
+  img {
+    display: none;
+  }
+
+  .item p, .item h3 {
+    float: none;
+    width: 100%;
+  }
+}
